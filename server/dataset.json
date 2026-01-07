@@ -1,0 +1,2767 @@
+{
+  "products": [
+    {
+      "id": "enterprise",
+      "name": "Enterprise Plan",
+      "category": "subscription",
+      "launchDate": "2023-01-01"
+    },
+    {
+      "id": "professional",
+      "name": "Professional Plan",
+      "category": "subscription",
+      "launchDate": "2023-01-01"
+    },
+    {
+      "id": "starter",
+      "name": "Starter Plan",
+      "category": "subscription",
+      "launchDate": "2023-01-01"
+    },
+    {
+      "id": "consulting",
+      "name": "Consulting Services",
+      "category": "services",
+      "launchDate": "2023-01-01"
+    }
+  ],
+  "revenueCategories": [
+    {
+      "id": "subscription_revenue",
+      "name": "Subscription Revenue",
+      "description": "Recurring monthly subscription fees"
+    },
+    {
+      "id": "setup_fees",
+      "name": "Setup Fees",
+      "description": "One-time onboarding and setup fees"
+    },
+    {
+      "id": "professional_services",
+      "name": "Professional Services",
+      "description": "Consulting and implementation services"
+    },
+    {
+      "id": "overage_fees",
+      "name": "Overage Fees",
+      "description": "Additional usage beyond plan limits"
+    }
+  ],
+  "expenseCategories": [
+    {
+      "id": "salaries",
+      "name": "Salaries & Wages",
+      "description": "Employee compensation"
+    },
+    {
+      "id": "marketing",
+      "name": "Marketing & Advertising",
+      "description": "Customer acquisition costs"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure & Hosting",
+      "description": "Cloud services and hosting"
+    },
+    {
+      "id": "software",
+      "name": "Software & Tools",
+      "description": "Third-party software subscriptions"
+    },
+    {
+      "id": "operations",
+      "name": "Operations",
+      "description": "General operational expenses"
+    }
+  ],
+  "metrics": [
+    {
+      "date": "2023-01-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 65000,
+        "setup_fees": 8000,
+        "professional_services": 0,
+        "overage_fees": 2000
+      },
+      "totalRevenue": 75000,
+      "expensesByCategory": {
+        "salaries": 25000,
+        "marketing": 8000,
+        "infrastructure": 6000,
+        "software": 3000,
+        "operations": 3000
+      },
+      "totalExpenses": 45000,
+      "grossProfit": 30000,
+      "grossMargin": 40.0,
+      "operatingCashFlow": 25000,
+      "netProfit": 22000,
+      "cac": 450,
+      "ltv": 18000,
+      "ltvCacRatio": 40.0,
+      "mau": 150
+    },
+    {
+      "date": "2023-01-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 30000,
+        "setup_fees": 3000,
+        "professional_services": 0,
+        "overage_fees": 2000
+      },
+      "totalRevenue": 35000,
+      "expensesByCategory": {
+        "salaries": 12000,
+        "marketing": 6000,
+        "infrastructure": 3500,
+        "software": 2000,
+        "operations": 1500
+      },
+      "totalExpenses": 25000,
+      "grossProfit": 10000,
+      "grossMargin": 28.57,
+      "operatingCashFlow": 8000,
+      "netProfit": 7000,
+      "cac": 200,
+      "ltv": 7200,
+      "ltvCacRatio": 36.0,
+      "mau": 220
+    },
+    {
+      "date": "2023-01-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 12000,
+        "setup_fees": 2000,
+        "professional_services": 0,
+        "overage_fees": 1000
+      },
+      "totalRevenue": 15000,
+      "expensesByCategory": {
+        "salaries": 8000,
+        "marketing": 4000,
+        "infrastructure": 2000,
+        "software": 500,
+        "operations": 500
+      },
+      "totalExpenses": 15000,
+      "grossProfit": 0,
+      "grossMargin": 0.0,
+      "operatingCashFlow": 2000,
+      "netProfit": -1000,
+      "cac": 150,
+      "ltv": 2400,
+      "ltvCacRatio": 16.0,
+      "mau": 80
+    },
+    {
+      "date": "2023-01-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 22000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 22000,
+      "expensesByCategory": {
+        "salaries": 12000,
+        "marketing": 2000,
+        "infrastructure": 500,
+        "software": 500,
+        "operations": 1000
+      },
+      "totalExpenses": 16000,
+      "grossProfit": 6000,
+      "grossMargin": 27.27,
+      "operatingCashFlow": 5500,
+      "netProfit": 5000,
+      "cac": 300,
+      "ltv": 12000,
+      "ltvCacRatio": 40.0,
+      "mau": 45
+    },
+    {
+      "date": "2023-02-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 68000,
+        "setup_fees": 6000,
+        "professional_services": 0,
+        "overage_fees": 3000
+      },
+      "totalRevenue": 77000,
+      "expensesByCategory": {
+        "salaries": 26000,
+        "marketing": 7500,
+        "infrastructure": 6200,
+        "software": 3000,
+        "operations": 3100
+      },
+      "totalExpenses": 45800,
+      "grossProfit": 31200,
+      "grossMargin": 40.52,
+      "operatingCashFlow": 26500,
+      "netProfit": 23500,
+      "cac": 440,
+      "ltv": 18500,
+      "ltvCacRatio": 42.05,
+      "mau": 155
+    },
+    {
+      "date": "2023-02-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 32000,
+        "setup_fees": 2500,
+        "professional_services": 0,
+        "overage_fees": 2500
+      },
+      "totalRevenue": 37000,
+      "expensesByCategory": {
+        "salaries": 12500,
+        "marketing": 6200,
+        "infrastructure": 3600,
+        "software": 2000,
+        "operations": 1600
+      },
+      "totalExpenses": 25900,
+      "grossProfit": 11100,
+      "grossMargin": 30.0,
+      "operatingCashFlow": 9000,
+      "netProfit": 8000,
+      "cac": 195,
+      "ltv": 7500,
+      "ltvCacRatio": 38.46,
+      "mau": 230
+    },
+    {
+      "date": "2023-02-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 13000,
+        "setup_fees": 1800,
+        "professional_services": 0,
+        "overage_fees": 1200
+      },
+      "totalRevenue": 16000,
+      "expensesByCategory": {
+        "salaries": 8200,
+        "marketing": 4200,
+        "infrastructure": 2100,
+        "software": 500,
+        "operations": 600
+      },
+      "totalExpenses": 15600,
+      "grossProfit": 400,
+      "grossMargin": 2.5,
+      "operatingCashFlow": 2500,
+      "netProfit": -500,
+      "cac": 145,
+      "ltv": 2500,
+      "ltvCacRatio": 17.24,
+      "mau": 85
+    },
+    {
+      "date": "2023-02-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 24000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 24000,
+      "expensesByCategory": {
+        "salaries": 13000,
+        "marketing": 2100,
+        "infrastructure": 500,
+        "software": 500,
+        "operations": 1100
+      },
+      "totalExpenses": 17200,
+      "grossProfit": 6800,
+      "grossMargin": 28.33,
+      "operatingCashFlow": 6200,
+      "netProfit": 5800,
+      "cac": 290,
+      "ltv": 12500,
+      "ltvCacRatio": 43.1,
+      "mau": 48
+    },
+    {
+      "date": "2023-03-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 72000,
+        "setup_fees": 10000,
+        "professional_services": 0,
+        "overage_fees": 3500
+      },
+      "totalRevenue": 85500,
+      "expensesByCategory": {
+        "salaries": 27000,
+        "marketing": 8000,
+        "infrastructure": 6500,
+        "software": 3200,
+        "operations": 3200
+      },
+      "totalExpenses": 47900,
+      "grossProfit": 37600,
+      "grossMargin": 43.98,
+      "operatingCashFlow": 32000,
+      "netProfit": 29000,
+      "cac": 430,
+      "ltv": 19000,
+      "ltvCacRatio": 44.19,
+      "mau": 165
+    },
+    {
+      "date": "2023-03-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 35000,
+        "setup_fees": 3000,
+        "professional_services": 0,
+        "overage_fees": 3000
+      },
+      "totalRevenue": 41000,
+      "expensesByCategory": {
+        "salaries": 13000,
+        "marketing": 6500,
+        "infrastructure": 3800,
+        "software": 2100,
+        "operations": 1700
+      },
+      "totalExpenses": 27100,
+      "grossProfit": 13900,
+      "grossMargin": 33.9,
+      "operatingCashFlow": 11000,
+      "netProfit": 10000,
+      "cac": 190,
+      "ltv": 8000,
+      "ltvCacRatio": 42.11,
+      "mau": 245
+    },
+    {
+      "date": "2023-03-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 14500,
+        "setup_fees": 2200,
+        "professional_services": 0,
+        "overage_fees": 1300
+      },
+      "totalRevenue": 18000,
+      "expensesByCategory": {
+        "salaries": 8500,
+        "marketing": 4500,
+        "infrastructure": 2200,
+        "software": 600,
+        "operations": 700
+      },
+      "totalExpenses": 16500,
+      "grossProfit": 1500,
+      "grossMargin": 8.33,
+      "operatingCashFlow": 3000,
+      "netProfit": 500,
+      "cac": 140,
+      "ltv": 2700,
+      "ltvCacRatio": 19.29,
+      "mau": 92
+    },
+    {
+      "date": "2023-03-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 28000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 28000,
+      "expensesByCategory": {
+        "salaries": 15000,
+        "marketing": 2200,
+        "infrastructure": 600,
+        "software": 500,
+        "operations": 1200
+      },
+      "totalExpenses": 19500,
+      "grossProfit": 8500,
+      "grossMargin": 30.36,
+      "operatingCashFlow": 7800,
+      "netProfit": 7200,
+      "cac": 280,
+      "ltv": 13000,
+      "ltvCacRatio": 46.43,
+      "mau": 52
+    },
+    {
+      "date": "2023-04-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 78000,
+        "setup_fees": 12000,
+        "professional_services": 0,
+        "overage_fees": 4000
+      },
+      "totalRevenue": 94000,
+      "expensesByCategory": {
+        "salaries": 28000,
+        "marketing": 8500,
+        "infrastructure": 7000,
+        "software": 3300,
+        "operations": 3500
+      },
+      "totalExpenses": 50300,
+      "grossProfit": 43700,
+      "grossMargin": 46.49,
+      "operatingCashFlow": 37000,
+      "netProfit": 34000,
+      "cac": 420,
+      "ltv": 20000,
+      "ltvCacRatio": 47.62,
+      "mau": 178
+    },
+    {
+      "date": "2023-04-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 38000,
+        "setup_fees": 3500,
+        "professional_services": 0,
+        "overage_fees": 3500
+      },
+      "totalRevenue": 45000,
+      "expensesByCategory": {
+        "salaries": 13500,
+        "marketing": 7000,
+        "infrastructure": 4000,
+        "software": 2200,
+        "operations": 1800
+      },
+      "totalExpenses": 28500,
+      "grossProfit": 16500,
+      "grossMargin": 36.67,
+      "operatingCashFlow": 13500,
+      "netProfit": 12000,
+      "cac": 185,
+      "ltv": 8500,
+      "ltvCacRatio": 45.95,
+      "mau": 260
+    },
+    {
+      "date": "2023-04-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 16000,
+        "setup_fees": 2500,
+        "professional_services": 0,
+        "overage_fees": 1500
+      },
+      "totalRevenue": 20000,
+      "expensesByCategory": {
+        "salaries": 9000,
+        "marketing": 5000,
+        "infrastructure": 2400,
+        "software": 600,
+        "operations": 800
+      },
+      "totalExpenses": 17800,
+      "grossProfit": 2200,
+      "grossMargin": 11.0,
+      "operatingCashFlow": 3500,
+      "netProfit": 1500,
+      "cac": 135,
+      "ltv": 3000,
+      "ltvCacRatio": 22.22,
+      "mau": 100
+    },
+    {
+      "date": "2023-04-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 31000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 31000,
+      "expensesByCategory": {
+        "salaries": 16000,
+        "marketing": 2300,
+        "infrastructure": 600,
+        "software": 600,
+        "operations": 1300
+      },
+      "totalExpenses": 20800,
+      "grossProfit": 10200,
+      "grossMargin": 32.9,
+      "operatingCashFlow": 9500,
+      "netProfit": 8800,
+      "cac": 270,
+      "ltv": 14000,
+      "ltvCacRatio": 51.85,
+      "mau": 58
+    },
+    {
+      "date": "2023-05-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 85000,
+        "setup_fees": 10000,
+        "professional_services": 0,
+        "overage_fees": 5000
+      },
+      "totalRevenue": 100000,
+      "expensesByCategory": {
+        "salaries": 29000,
+        "marketing": 9000,
+        "infrastructure": 7500,
+        "software": 3500,
+        "operations": 3700
+      },
+      "totalExpenses": 52700,
+      "grossProfit": 47300,
+      "grossMargin": 47.3,
+      "operatingCashFlow": 40000,
+      "netProfit": 37000,
+      "cac": 410,
+      "ltv": 21000,
+      "ltvCacRatio": 51.22,
+      "mau": 190
+    },
+    {
+      "date": "2023-05-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 42000,
+        "setup_fees": 4000,
+        "professional_services": 0,
+        "overage_fees": 4000
+      },
+      "totalRevenue": 50000,
+      "expensesByCategory": {
+        "salaries": 14000,
+        "marketing": 7500,
+        "infrastructure": 4200,
+        "software": 2300,
+        "operations": 2000
+      },
+      "totalExpenses": 30000,
+      "grossProfit": 20000,
+      "grossMargin": 40.0,
+      "operatingCashFlow": 16000,
+      "netProfit": 14500,
+      "cac": 180,
+      "ltv": 9000,
+      "ltvCacRatio": 50.0,
+      "mau": 275
+    },
+    {
+      "date": "2023-05-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 18000,
+        "setup_fees": 3000,
+        "professional_services": 0,
+        "overage_fees": 2000
+      },
+      "totalRevenue": 23000,
+      "expensesByCategory": {
+        "salaries": 9500,
+        "marketing": 5500,
+        "infrastructure": 2600,
+        "software": 700,
+        "operations": 900
+      },
+      "totalExpenses": 19200,
+      "grossProfit": 3800,
+      "grossMargin": 16.52,
+      "operatingCashFlow": 4500,
+      "netProfit": 2800,
+      "cac": 130,
+      "ltv": 3300,
+      "ltvCacRatio": 25.38,
+      "mau": 110
+    },
+    {
+      "date": "2023-05-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 35000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 35000,
+      "expensesByCategory": {
+        "salaries": 17500,
+        "marketing": 2400,
+        "infrastructure": 700,
+        "software": 600,
+        "operations": 1400
+      },
+      "totalExpenses": 22600,
+      "grossProfit": 12400,
+      "grossMargin": 35.43,
+      "operatingCashFlow": 11500,
+      "netProfit": 10800,
+      "cac": 260,
+      "ltv": 15000,
+      "ltvCacRatio": 57.69,
+      "mau": 64
+    },
+    {
+      "date": "2023-06-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 92000,
+        "setup_fees": 8000,
+        "professional_services": 0,
+        "overage_fees": 6000
+      },
+      "totalRevenue": 106000,
+      "expensesByCategory": {
+        "salaries": 30000,
+        "marketing": 9500,
+        "infrastructure": 8000,
+        "software": 3700,
+        "operations": 4000
+      },
+      "totalExpenses": 55200,
+      "grossProfit": 50800,
+      "grossMargin": 47.92,
+      "operatingCashFlow": 43000,
+      "netProfit": 39500,
+      "cac": 400,
+      "ltv": 22000,
+      "ltvCacRatio": 55.0,
+      "mau": 205
+    },
+    {
+      "date": "2023-06-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 46000,
+        "setup_fees": 4500,
+        "professional_services": 0,
+        "overage_fees": 4500
+      },
+      "totalRevenue": 55000,
+      "expensesByCategory": {
+        "salaries": 14500,
+        "marketing": 8000,
+        "infrastructure": 4500,
+        "software": 2400,
+        "operations": 2100
+      },
+      "totalExpenses": 31500,
+      "grossProfit": 23500,
+      "grossMargin": 42.73,
+      "operatingCashFlow": 19000,
+      "netProfit": 17000,
+      "cac": 175,
+      "ltv": 9500,
+      "ltvCacRatio": 54.29,
+      "mau": 290
+    },
+    {
+      "date": "2023-06-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 20000,
+        "setup_fees": 3500,
+        "professional_services": 0,
+        "overage_fees": 2500
+      },
+      "totalRevenue": 26000,
+      "expensesByCategory": {
+        "salaries": 10000,
+        "marketing": 6000,
+        "infrastructure": 2800,
+        "software": 700,
+        "operations": 1000
+      },
+      "totalExpenses": 20500,
+      "grossProfit": 5500,
+      "grossMargin": 21.15,
+      "operatingCashFlow": 5500,
+      "netProfit": 4000,
+      "cac": 125,
+      "ltv": 3600,
+      "ltvCacRatio": 28.8,
+      "mau": 122
+    },
+    {
+      "date": "2023-06-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 38000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 38000,
+      "expensesByCategory": {
+        "salaries": 18500,
+        "marketing": 2500,
+        "infrastructure": 700,
+        "software": 700,
+        "operations": 1500
+      },
+      "totalExpenses": 23900,
+      "grossProfit": 14100,
+      "grossMargin": 37.11,
+      "operatingCashFlow": 13200,
+      "netProfit": 12400,
+      "cac": 250,
+      "ltv": 16000,
+      "ltvCacRatio": 64.0,
+      "mau": 70
+    },
+    {
+      "date": "2023-07-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 98000,
+        "setup_fees": 10000,
+        "professional_services": 0,
+        "overage_fees": 7000
+      },
+      "totalRevenue": 115000,
+      "expensesByCategory": {
+        "salaries": 31000,
+        "marketing": 10000,
+        "infrastructure": 8500,
+        "software": 3800,
+        "operations": 4200
+      },
+      "totalExpenses": 57500,
+      "grossProfit": 57500,
+      "grossMargin": 50.0,
+      "operatingCashFlow": 48000,
+      "netProfit": 44500,
+      "cac": 390,
+      "ltv": 23000,
+      "ltvCacRatio": 58.97,
+      "mau": 218
+    },
+    {
+      "date": "2023-07-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 50000,
+        "setup_fees": 5000,
+        "professional_services": 0,
+        "overage_fees": 5000
+      },
+      "totalRevenue": 60000,
+      "expensesByCategory": {
+        "salaries": 15000,
+        "marketing": 8500,
+        "infrastructure": 4800,
+        "software": 2500,
+        "operations": 2200
+      },
+      "totalExpenses": 33000,
+      "grossProfit": 27000,
+      "grossMargin": 45.0,
+      "operatingCashFlow": 22000,
+      "netProfit": 20000,
+      "cac": 170,
+      "ltv": 10000,
+      "ltvCacRatio": 58.82,
+      "mau": 305
+    },
+    {
+      "date": "2023-07-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 22000,
+        "setup_fees": 4000,
+        "professional_services": 0,
+        "overage_fees": 3000
+      },
+      "totalRevenue": 29000,
+      "expensesByCategory": {
+        "salaries": 10500,
+        "marketing": 6500,
+        "infrastructure": 3000,
+        "software": 800,
+        "operations": 1100
+      },
+      "totalExpenses": 21900,
+      "grossProfit": 7100,
+      "grossMargin": 24.48,
+      "operatingCashFlow": 6500,
+      "netProfit": 5200,
+      "cac": 120,
+      "ltv": 4000,
+      "ltvCacRatio": 33.33,
+      "mau": 135
+    },
+    {
+      "date": "2023-07-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 42000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 42000,
+      "expensesByCategory": {
+        "salaries": 20000,
+        "marketing": 2600,
+        "infrastructure": 800,
+        "software": 700,
+        "operations": 1600
+      },
+      "totalExpenses": 25700,
+      "grossProfit": 16300,
+      "grossMargin": 38.81,
+      "operatingCashFlow": 15200,
+      "netProfit": 14200,
+      "cac": 240,
+      "ltv": 17000,
+      "ltvCacRatio": 70.83,
+      "mau": 76
+    },
+    {
+      "date": "2023-08-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 105000,
+        "setup_fees": 12000,
+        "professional_services": 0,
+        "overage_fees": 8000
+      },
+      "totalRevenue": 125000,
+      "expensesByCategory": {
+        "salaries": 32000,
+        "marketing": 10500,
+        "infrastructure": 9000,
+        "software": 4000,
+        "operations": 4500
+      },
+      "totalExpenses": 60000,
+      "grossProfit": 65000,
+      "grossMargin": 52.0,
+      "operatingCashFlow": 54000,
+      "netProfit": 50000,
+      "cac": 380,
+      "ltv": 24000,
+      "ltvCacRatio": 63.16,
+      "mau": 232
+    },
+    {
+      "date": "2023-08-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 54000,
+        "setup_fees": 5500,
+        "professional_services": 0,
+        "overage_fees": 5500
+      },
+      "totalRevenue": 65000,
+      "expensesByCategory": {
+        "salaries": 15500,
+        "marketing": 9000,
+        "infrastructure": 5000,
+        "software": 2600,
+        "operations": 2400
+      },
+      "totalExpenses": 34500,
+      "grossProfit": 30500,
+      "grossMargin": 46.92,
+      "operatingCashFlow": 25000,
+      "netProfit": 23000,
+      "cac": 165,
+      "ltv": 10500,
+      "ltvCacRatio": 63.64,
+      "mau": 320
+    },
+    {
+      "date": "2023-08-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 24000,
+        "setup_fees": 4500,
+        "professional_services": 0,
+        "overage_fees": 3500
+      },
+      "totalRevenue": 32000,
+      "expensesByCategory": {
+        "salaries": 11000,
+        "marketing": 7000,
+        "infrastructure": 3200,
+        "software": 800,
+        "operations": 1200
+      },
+      "totalExpenses": 23200,
+      "grossProfit": 8800,
+      "grossMargin": 27.5,
+      "operatingCashFlow": 7500,
+      "netProfit": 6500,
+      "cac": 115,
+      "ltv": 4400,
+      "ltvCacRatio": 38.26,
+      "mau": 148
+    },
+    {
+      "date": "2023-08-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 45000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 45000,
+      "expensesByCategory": {
+        "salaries": 21000,
+        "marketing": 2700,
+        "infrastructure": 800,
+        "software": 800,
+        "operations": 1700
+      },
+      "totalExpenses": 27000,
+      "grossProfit": 18000,
+      "grossMargin": 40.0,
+      "operatingCashFlow": 16800,
+      "netProfit": 15800,
+      "cac": 230,
+      "ltv": 18000,
+      "ltvCacRatio": 78.26,
+      "mau": 82
+    },
+    {
+      "date": "2023-09-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 112000,
+        "setup_fees": 15000,
+        "professional_services": 0,
+        "overage_fees": 9000
+      },
+      "totalRevenue": 136000,
+      "expensesByCategory": {
+        "salaries": 33000,
+        "marketing": 11000,
+        "infrastructure": 9500,
+        "software": 4200,
+        "operations": 4800
+      },
+      "totalExpenses": 62500,
+      "grossProfit": 73500,
+      "grossMargin": 54.04,
+      "operatingCashFlow": 61000,
+      "netProfit": 56500,
+      "cac": 370,
+      "ltv": 25000,
+      "ltvCacRatio": 67.57,
+      "mau": 245
+    },
+    {
+      "date": "2023-09-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 58000,
+        "setup_fees": 6000,
+        "professional_services": 0,
+        "overage_fees": 6000
+      },
+      "totalRevenue": 70000,
+      "expensesByCategory": {
+        "salaries": 16000,
+        "marketing": 9500,
+        "infrastructure": 5200,
+        "software": 2700,
+        "operations": 2500
+      },
+      "totalExpenses": 35900,
+      "grossProfit": 34100,
+      "grossMargin": 48.71,
+      "operatingCashFlow": 28000,
+      "netProfit": 26000,
+      "cac": 160,
+      "ltv": 11000,
+      "ltvCacRatio": 68.75,
+      "mau": 335
+    },
+    {
+      "date": "2023-09-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 26000,
+        "setup_fees": 5000,
+        "professional_services": 0,
+        "overage_fees": 4000
+      },
+      "totalRevenue": 35000,
+      "expensesByCategory": {
+        "salaries": 11500,
+        "marketing": 7500,
+        "infrastructure": 3400,
+        "software": 900,
+        "operations": 1300
+      },
+      "totalExpenses": 24600,
+      "grossProfit": 10400,
+      "grossMargin": 29.71,
+      "operatingCashFlow": 8500,
+      "netProfit": 7500,
+      "cac": 110,
+      "ltv": 4800,
+      "ltvCacRatio": 43.64,
+      "mau": 160
+    },
+    {
+      "date": "2023-09-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 48000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 48000,
+      "expensesByCategory": {
+        "salaries": 22000,
+        "marketing": 2800,
+        "infrastructure": 900,
+        "software": 800,
+        "operations": 1800
+      },
+      "totalExpenses": 28300,
+      "grossProfit": 19700,
+      "grossMargin": 41.04,
+      "operatingCashFlow": 18400,
+      "netProfit": 17200,
+      "cac": 220,
+      "ltv": 19000,
+      "ltvCacRatio": 86.36,
+      "mau": 88
+    },
+    {
+      "date": "2023-10-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 118000,
+        "setup_fees": 14000,
+        "professional_services": 0,
+        "overage_fees": 10000
+      },
+      "totalRevenue": 142000,
+      "expensesByCategory": {
+        "salaries": 34000,
+        "marketing": 11500,
+        "infrastructure": 10000,
+        "software": 4400,
+        "operations": 5000
+      },
+      "totalExpenses": 64900,
+      "grossProfit": 77100,
+      "grossMargin": 54.3,
+      "operatingCashFlow": 64000,
+      "netProfit": 59000,
+      "cac": 360,
+      "ltv": 26000,
+      "ltvCacRatio": 72.22,
+      "mau": 258
+    },
+    {
+      "date": "2023-10-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 62000,
+        "setup_fees": 6500,
+        "professional_services": 0,
+        "overage_fees": 6500
+      },
+      "totalRevenue": 75000,
+      "expensesByCategory": {
+        "salaries": 16500,
+        "marketing": 10000,
+        "infrastructure": 5500,
+        "software": 2800,
+        "operations": 2700
+      },
+      "totalExpenses": 37500,
+      "grossProfit": 37500,
+      "grossMargin": 50.0,
+      "operatingCashFlow": 31000,
+      "netProfit": 28500,
+      "cac": 155,
+      "ltv": 11500,
+      "ltvCacRatio": 74.19,
+      "mau": 350
+    },
+    {
+      "date": "2023-10-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 28000,
+        "setup_fees": 5500,
+        "professional_services": 0,
+        "overage_fees": 4500
+      },
+      "totalRevenue": 38000,
+      "expensesByCategory": {
+        "salaries": 12000,
+        "marketing": 8000,
+        "infrastructure": 3600,
+        "software": 900,
+        "operations": 1400
+      },
+      "totalExpenses": 25900,
+      "grossProfit": 12100,
+      "grossMargin": 31.84,
+      "operatingCashFlow": 9500,
+      "netProfit": 8500,
+      "cac": 105,
+      "ltv": 5200,
+      "ltvCacRatio": 49.52,
+      "mau": 172
+    },
+    {
+      "date": "2023-10-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 52000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 52000,
+      "expensesByCategory": {
+        "salaries": 23000,
+        "marketing": 2900,
+        "infrastructure": 900,
+        "software": 900,
+        "operations": 1900
+      },
+      "totalExpenses": 29600,
+      "grossProfit": 22400,
+      "grossMargin": 43.08,
+      "operatingCashFlow": 20900,
+      "netProfit": 19600,
+      "cac": 210,
+      "ltv": 20000,
+      "ltvCacRatio": 95.24,
+      "mau": 94
+    },
+    {
+      "date": "2023-11-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 125000,
+        "setup_fees": 16000,
+        "professional_services": 0,
+        "overage_fees": 11000
+      },
+      "totalRevenue": 152000,
+      "expensesByCategory": {
+        "salaries": 35000,
+        "marketing": 12000,
+        "infrastructure": 10500,
+        "software": 4600,
+        "operations": 5200
+      },
+      "totalExpenses": 67300,
+      "grossProfit": 84700,
+      "grossMargin": 55.72,
+      "operatingCashFlow": 70000,
+      "netProfit": 64500,
+      "cac": 350,
+      "ltv": 27000,
+      "ltvCacRatio": 77.14,
+      "mau": 270
+    },
+    {
+      "date": "2023-11-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 66000,
+        "setup_fees": 7000,
+        "professional_services": 0,
+        "overage_fees": 7000
+      },
+      "totalRevenue": 80000,
+      "expensesByCategory": {
+        "salaries": 17000,
+        "marketing": 10500,
+        "infrastructure": 5800,
+        "software": 2900,
+        "operations": 2800
+      },
+      "totalExpenses": 39000,
+      "grossProfit": 41000,
+      "grossMargin": 51.25,
+      "operatingCashFlow": 34000,
+      "netProfit": 31500,
+      "cac": 150,
+      "ltv": 12000,
+      "ltvCacRatio": 80.0,
+      "mau": 365
+    },
+    {
+      "date": "2023-11-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 30000,
+        "setup_fees": 6000,
+        "professional_services": 0,
+        "overage_fees": 5000
+      },
+      "totalRevenue": 41000,
+      "expensesByCategory": {
+        "salaries": 12500,
+        "marketing": 8500,
+        "infrastructure": 3800,
+        "software": 1000,
+        "operations": 1500
+      },
+      "totalExpenses": 27300,
+      "grossProfit": 13700,
+      "grossMargin": 33.41,
+      "operatingCashFlow": 10500,
+      "netProfit": 9500,
+      "cac": 100,
+      "ltv": 5600,
+      "ltvCacRatio": 56.0,
+      "mau": 185
+    },
+    {
+      "date": "2023-11-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 55000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 55000,
+      "expensesByCategory": {
+        "salaries": 24000,
+        "marketing": 3000,
+        "infrastructure": 1000,
+        "software": 900,
+        "operations": 2000
+      },
+      "totalExpenses": 30900,
+      "grossProfit": 24100,
+      "grossMargin": 43.82,
+      "operatingCashFlow": 22500,
+      "netProfit": 21000,
+      "cac": 200,
+      "ltv": 21000,
+      "ltvCacRatio": 105.0,
+      "mau": 100
+    },
+    {
+      "date": "2023-12-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 132000,
+        "setup_fees": 18000,
+        "professional_services": 0,
+        "overage_fees": 12000
+      },
+      "totalRevenue": 162000,
+      "expensesByCategory": {
+        "salaries": 36000,
+        "marketing": 12500,
+        "infrastructure": 11000,
+        "software": 4800,
+        "operations": 5500
+      },
+      "totalExpenses": 69800,
+      "grossProfit": 92200,
+      "grossMargin": 56.91,
+      "operatingCashFlow": 76000,
+      "netProfit": 70000,
+      "cac": 340,
+      "ltv": 28000,
+      "ltvCacRatio": 82.35,
+      "mau": 282
+    },
+    {
+      "date": "2023-12-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 70000,
+        "setup_fees": 7500,
+        "professional_services": 0,
+        "overage_fees": 7500
+      },
+      "totalRevenue": 85000,
+      "expensesByCategory": {
+        "salaries": 17500,
+        "marketing": 11000,
+        "infrastructure": 6000,
+        "software": 3000,
+        "operations": 3000
+      },
+      "totalExpenses": 40500,
+      "grossProfit": 44500,
+      "grossMargin": 52.35,
+      "operatingCashFlow": 37000,
+      "netProfit": 34000,
+      "cac": 145,
+      "ltv": 12500,
+      "ltvCacRatio": 86.21,
+      "mau": 380
+    },
+    {
+      "date": "2023-12-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 32000,
+        "setup_fees": 6500,
+        "professional_services": 0,
+        "overage_fees": 5500
+      },
+      "totalRevenue": 44000,
+      "expensesByCategory": {
+        "salaries": 13000,
+        "marketing": 9000,
+        "infrastructure": 4000,
+        "software": 1000,
+        "operations": 1600
+      },
+      "totalExpenses": 28600,
+      "grossProfit": 15400,
+      "grossMargin": 35.0,
+      "operatingCashFlow": 11500,
+      "netProfit": 10500,
+      "cac": 95,
+      "ltv": 6000,
+      "ltvCacRatio": 63.16,
+      "mau": 198
+    },
+    {
+      "date": "2023-12-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 58000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 58000,
+      "expensesByCategory": {
+        "salaries": 25000,
+        "marketing": 3100,
+        "infrastructure": 1000,
+        "software": 1000,
+        "operations": 2100
+      },
+      "totalExpenses": 32200,
+      "grossProfit": 25800,
+      "grossMargin": 44.48,
+      "operatingCashFlow": 24000,
+      "netProfit": 22500,
+      "cac": 190,
+      "ltv": 22000,
+      "ltvCacRatio": 115.79,
+      "mau": 106
+    },
+    {
+      "date": "2024-01-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 138000,
+        "setup_fees": 15000,
+        "professional_services": 0,
+        "overage_fees": 13000
+      },
+      "totalRevenue": 166000,
+      "expensesByCategory": {
+        "salaries": 37000,
+        "marketing": 13000,
+        "infrastructure": 11500,
+        "software": 5000,
+        "operations": 5800
+      },
+      "totalExpenses": 72300,
+      "grossProfit": 93700,
+      "grossMargin": 56.45,
+      "operatingCashFlow": 77000,
+      "netProfit": 71000,
+      "cac": 330,
+      "ltv": 29000,
+      "ltvCacRatio": 87.88,
+      "mau": 295
+    },
+    {
+      "date": "2024-01-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 74000,
+        "setup_fees": 8000,
+        "professional_services": 0,
+        "overage_fees": 8000
+      },
+      "totalRevenue": 90000,
+      "expensesByCategory": {
+        "salaries": 18000,
+        "marketing": 11500,
+        "infrastructure": 6200,
+        "software": 3100,
+        "operations": 3100
+      },
+      "totalExpenses": 41900,
+      "grossProfit": 48100,
+      "grossMargin": 53.44,
+      "operatingCashFlow": 40000,
+      "netProfit": 37000,
+      "cac": 140,
+      "ltv": 13000,
+      "ltvCacRatio": 92.86,
+      "mau": 395
+    },
+    {
+      "date": "2024-01-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 34000,
+        "setup_fees": 7000,
+        "professional_services": 0,
+        "overage_fees": 6000
+      },
+      "totalRevenue": 47000,
+      "expensesByCategory": {
+        "salaries": 13500,
+        "marketing": 9500,
+        "infrastructure": 4200,
+        "software": 1100,
+        "operations": 1700
+      },
+      "totalExpenses": 30000,
+      "grossProfit": 17000,
+      "grossMargin": 36.17,
+      "operatingCashFlow": 12500,
+      "netProfit": 11500,
+      "cac": 90,
+      "ltv": 6400,
+      "ltvCacRatio": 71.11,
+      "mau": 210
+    },
+    {
+      "date": "2024-01-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 60000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 60000,
+      "expensesByCategory": {
+        "salaries": 26000,
+        "marketing": 3200,
+        "infrastructure": 1100,
+        "software": 1000,
+        "operations": 2200
+      },
+      "totalExpenses": 33500,
+      "grossProfit": 26500,
+      "grossMargin": 44.17,
+      "operatingCashFlow": 24500,
+      "netProfit": 23000,
+      "cac": 180,
+      "ltv": 23000,
+      "ltvCacRatio": 127.78,
+      "mau": 112
+    },
+    {
+      "date": "2024-02-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 145000,
+        "setup_fees": 17000,
+        "professional_services": 0,
+        "overage_fees": 14000
+      },
+      "totalRevenue": 176000,
+      "expensesByCategory": {
+        "salaries": 38000,
+        "marketing": 13500,
+        "infrastructure": 12000,
+        "software": 5200,
+        "operations": 6000
+      },
+      "totalExpenses": 74700,
+      "grossProfit": 101300,
+      "grossMargin": 57.56,
+      "operatingCashFlow": 83000,
+      "netProfit": 76500,
+      "cac": 320,
+      "ltv": 30000,
+      "ltvCacRatio": 93.75,
+      "mau": 308
+    },
+    {
+      "date": "2024-02-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 78000,
+        "setup_fees": 8500,
+        "professional_services": 0,
+        "overage_fees": 8500
+      },
+      "totalRevenue": 95000,
+      "expensesByCategory": {
+        "salaries": 18500,
+        "marketing": 12000,
+        "infrastructure": 6500,
+        "software": 3200,
+        "operations": 3200
+      },
+      "totalExpenses": 43400,
+      "grossProfit": 51600,
+      "grossMargin": 54.32,
+      "operatingCashFlow": 43000,
+      "netProfit": 40000,
+      "cac": 135,
+      "ltv": 13500,
+      "ltvCacRatio": 100.0,
+      "mau": 410
+    },
+    {
+      "date": "2024-02-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 36000,
+        "setup_fees": 7500,
+        "professional_services": 0,
+        "overage_fees": 6500
+      },
+      "totalRevenue": 50000,
+      "expensesByCategory": {
+        "salaries": 14000,
+        "marketing": 10000,
+        "infrastructure": 4400,
+        "software": 1100,
+        "operations": 1800
+      },
+      "totalExpenses": 31300,
+      "grossProfit": 18700,
+      "grossMargin": 37.4,
+      "operatingCashFlow": 13500,
+      "netProfit": 12500,
+      "cac": 85,
+      "ltv": 6800,
+      "ltvCacRatio": 80.0,
+      "mau": 222
+    },
+    {
+      "date": "2024-02-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 63000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 63000,
+      "expensesByCategory": {
+        "salaries": 27000,
+        "marketing": 3300,
+        "infrastructure": 1100,
+        "software": 1100,
+        "operations": 2300
+      },
+      "totalExpenses": 34800,
+      "grossProfit": 28200,
+      "grossMargin": 44.76,
+      "operatingCashFlow": 26000,
+      "netProfit": 24500,
+      "cac": 170,
+      "ltv": 24000,
+      "ltvCacRatio": 141.18,
+      "mau": 118
+    },
+    {
+      "date": "2024-03-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 152000,
+        "setup_fees": 19000,
+        "professional_services": 0,
+        "overage_fees": 15000
+      },
+      "totalRevenue": 186000,
+      "expensesByCategory": {
+        "salaries": 39000,
+        "marketing": 14000,
+        "infrastructure": 12500,
+        "software": 5400,
+        "operations": 6200
+      },
+      "totalExpenses": 77100,
+      "grossProfit": 108900,
+      "grossMargin": 58.55,
+      "operatingCashFlow": 89000,
+      "netProfit": 82000,
+      "cac": 310,
+      "ltv": 31000,
+      "ltvCacRatio": 100.0,
+      "mau": 320
+    },
+    {
+      "date": "2024-03-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 82000,
+        "setup_fees": 9000,
+        "professional_services": 0,
+        "overage_fees": 9000
+      },
+      "totalRevenue": 100000,
+      "expensesByCategory": {
+        "salaries": 19000,
+        "marketing": 12500,
+        "infrastructure": 6800,
+        "software": 3300,
+        "operations": 3300
+      },
+      "totalExpenses": 44900,
+      "grossProfit": 55100,
+      "grossMargin": 55.1,
+      "operatingCashFlow": 46000,
+      "netProfit": 43000,
+      "cac": 130,
+      "ltv": 14000,
+      "ltvCacRatio": 107.69,
+      "mau": 425
+    },
+    {
+      "date": "2024-03-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 38000,
+        "setup_fees": 8000,
+        "professional_services": 0,
+        "overage_fees": 7000
+      },
+      "totalRevenue": 53000,
+      "expensesByCategory": {
+        "salaries": 14500,
+        "marketing": 10500,
+        "infrastructure": 4600,
+        "software": 1200,
+        "operations": 1900
+      },
+      "totalExpenses": 32700,
+      "grossProfit": 20300,
+      "grossMargin": 38.3,
+      "operatingCashFlow": 14500,
+      "netProfit": 13500,
+      "cac": 80,
+      "ltv": 7200,
+      "ltvCacRatio": 90.0,
+      "mau": 235
+    },
+    {
+      "date": "2024-03-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 66000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 66000,
+      "expensesByCategory": {
+        "salaries": 28000,
+        "marketing": 3400,
+        "infrastructure": 1200,
+        "software": 1100,
+        "operations": 2400
+      },
+      "totalExpenses": 36100,
+      "grossProfit": 29900,
+      "grossMargin": 45.3,
+      "operatingCashFlow": 27500,
+      "netProfit": 26000,
+      "cac": 160,
+      "ltv": 25000,
+      "ltvCacRatio": 156.25,
+      "mau": 124
+    },
+    {
+      "date": "2024-04-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 158000,
+        "setup_fees": 18000,
+        "professional_services": 0,
+        "overage_fees": 16000
+      },
+      "totalRevenue": 192000,
+      "expensesByCategory": {
+        "salaries": 40000,
+        "marketing": 14500,
+        "infrastructure": 13000,
+        "software": 5600,
+        "operations": 6500
+      },
+      "totalExpenses": 79600,
+      "grossProfit": 112400,
+      "grossMargin": 58.54,
+      "operatingCashFlow": 92000,
+      "netProfit": 85000,
+      "cac": 300,
+      "ltv": 32000,
+      "ltvCacRatio": 106.67,
+      "mau": 332
+    },
+    {
+      "date": "2024-04-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 86000,
+        "setup_fees": 9500,
+        "professional_services": 0,
+        "overage_fees": 9500
+      },
+      "totalRevenue": 105000,
+      "expensesByCategory": {
+        "salaries": 19500,
+        "marketing": 13000,
+        "infrastructure": 7000,
+        "software": 3400,
+        "operations": 3400
+      },
+      "totalExpenses": 46300,
+      "grossProfit": 58700,
+      "grossMargin": 55.9,
+      "operatingCashFlow": 49000,
+      "netProfit": 46000,
+      "cac": 125,
+      "ltv": 14500,
+      "ltvCacRatio": 116.0,
+      "mau": 440
+    },
+    {
+      "date": "2024-04-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 40000,
+        "setup_fees": 8500,
+        "professional_services": 0,
+        "overage_fees": 7500
+      },
+      "totalRevenue": 56000,
+      "expensesByCategory": {
+        "salaries": 15000,
+        "marketing": 11000,
+        "infrastructure": 4800,
+        "software": 1200,
+        "operations": 2000
+      },
+      "totalExpenses": 34000,
+      "grossProfit": 22000,
+      "grossMargin": 39.29,
+      "operatingCashFlow": 15500,
+      "netProfit": 14500,
+      "cac": 75,
+      "ltv": 7600,
+      "ltvCacRatio": 101.33,
+      "mau": 248
+    },
+    {
+      "date": "2024-04-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 68000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 68000,
+      "expensesByCategory": {
+        "salaries": 29000,
+        "marketing": 3500,
+        "infrastructure": 1200,
+        "software": 1200,
+        "operations": 2500
+      },
+      "totalExpenses": 37400,
+      "grossProfit": 30600,
+      "grossMargin": 45.0,
+      "operatingCashFlow": 28200,
+      "netProfit": 26500,
+      "cac": 150,
+      "ltv": 26000,
+      "ltvCacRatio": 173.33,
+      "mau": 130
+    },
+    {
+      "date": "2024-05-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 165000,
+        "setup_fees": 20000,
+        "professional_services": 0,
+        "overage_fees": 17000
+      },
+      "totalRevenue": 202000,
+      "expensesByCategory": {
+        "salaries": 41000,
+        "marketing": 15000,
+        "infrastructure": 13500,
+        "software": 5800,
+        "operations": 6800
+      },
+      "totalExpenses": 82100,
+      "grossProfit": 119900,
+      "grossMargin": 59.36,
+      "operatingCashFlow": 98000,
+      "netProfit": 90500,
+      "cac": 290,
+      "ltv": 33000,
+      "ltvCacRatio": 113.79,
+      "mau": 345
+    },
+    {
+      "date": "2024-05-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 90000,
+        "setup_fees": 10000,
+        "professional_services": 0,
+        "overage_fees": 10000
+      },
+      "totalRevenue": 110000,
+      "expensesByCategory": {
+        "salaries": 20000,
+        "marketing": 13500,
+        "infrastructure": 7200,
+        "software": 3500,
+        "operations": 3500
+      },
+      "totalExpenses": 47700,
+      "grossProfit": 62300,
+      "grossMargin": 56.64,
+      "operatingCashFlow": 52000,
+      "netProfit": 49000,
+      "cac": 120,
+      "ltv": 15000,
+      "ltvCacRatio": 125.0,
+      "mau": 455
+    },
+    {
+      "date": "2024-05-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 42000,
+        "setup_fees": 9000,
+        "professional_services": 0,
+        "overage_fees": 8000
+      },
+      "totalRevenue": 59000,
+      "expensesByCategory": {
+        "salaries": 15500,
+        "marketing": 11500,
+        "infrastructure": 5000,
+        "software": 1300,
+        "operations": 2100
+      },
+      "totalExpenses": 35400,
+      "grossProfit": 23600,
+      "grossMargin": 40.0,
+      "operatingCashFlow": 16500,
+      "netProfit": 15500,
+      "cac": 70,
+      "ltv": 8000,
+      "ltvCacRatio": 114.29,
+      "mau": 260
+    },
+    {
+      "date": "2024-05-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 70000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 70000,
+      "expensesByCategory": {
+        "salaries": 30000,
+        "marketing": 3600,
+        "infrastructure": 1300,
+        "software": 1200,
+        "operations": 2600
+      },
+      "totalExpenses": 38700,
+      "grossProfit": 31300,
+      "grossMargin": 44.71,
+      "operatingCashFlow": 28800,
+      "netProfit": 27000,
+      "cac": 140,
+      "ltv": 27000,
+      "ltvCacRatio": 192.86,
+      "mau": 136
+    },
+    {
+      "date": "2024-06-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 172000,
+        "setup_fees": 22000,
+        "professional_services": 0,
+        "overage_fees": 18000
+      },
+      "totalRevenue": 212000,
+      "expensesByCategory": {
+        "salaries": 42000,
+        "marketing": 15500,
+        "infrastructure": 14000,
+        "software": 6000,
+        "operations": 7000
+      },
+      "totalExpenses": 84500,
+      "grossProfit": 127500,
+      "grossMargin": 60.14,
+      "operatingCashFlow": 104000,
+      "netProfit": 96000,
+      "cac": 280,
+      "ltv": 34000,
+      "ltvCacRatio": 121.43,
+      "mau": 358
+    },
+    {
+      "date": "2024-06-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 94000,
+        "setup_fees": 10500,
+        "professional_services": 0,
+        "overage_fees": 10500
+      },
+      "totalRevenue": 115000,
+      "expensesByCategory": {
+        "salaries": 20500,
+        "marketing": 14000,
+        "infrastructure": 7500,
+        "software": 3600,
+        "operations": 3600
+      },
+      "totalExpenses": 49200,
+      "grossProfit": 65800,
+      "grossMargin": 57.22,
+      "operatingCashFlow": 55000,
+      "netProfit": 52000,
+      "cac": 115,
+      "ltv": 15500,
+      "ltvCacRatio": 134.78,
+      "mau": 470
+    },
+    {
+      "date": "2024-06-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 44000,
+        "setup_fees": 9500,
+        "professional_services": 0,
+        "overage_fees": 8500
+      },
+      "totalRevenue": 62000,
+      "expensesByCategory": {
+        "salaries": 16000,
+        "marketing": 12000,
+        "infrastructure": 5200,
+        "software": 1300,
+        "operations": 2200
+      },
+      "totalExpenses": 36700,
+      "grossProfit": 25300,
+      "grossMargin": 40.81,
+      "operatingCashFlow": 17500,
+      "netProfit": 16500,
+      "cac": 65,
+      "ltv": 8400,
+      "ltvCacRatio": 129.23,
+      "mau": 272
+    },
+    {
+      "date": "2024-06-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 72000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 72000,
+      "expensesByCategory": {
+        "salaries": 31000,
+        "marketing": 3700,
+        "infrastructure": 1300,
+        "software": 1300,
+        "operations": 2700
+      },
+      "totalExpenses": 40000,
+      "grossProfit": 32000,
+      "grossMargin": 44.44,
+      "operatingCashFlow": 29400,
+      "netProfit": 27500,
+      "cac": 130,
+      "ltv": 28000,
+      "ltvCacRatio": 215.38,
+      "mau": 142
+    },
+    {
+      "date": "2024-07-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 178000,
+        "setup_fees": 21000,
+        "professional_services": 0,
+        "overage_fees": 19000
+      },
+      "totalRevenue": 218000,
+      "expensesByCategory": {
+        "salaries": 43000,
+        "marketing": 16000,
+        "infrastructure": 14500,
+        "software": 6200,
+        "operations": 7200
+      },
+      "totalExpenses": 86900,
+      "grossProfit": 131100,
+      "grossMargin": 60.14,
+      "operatingCashFlow": 107000,
+      "netProfit": 98500,
+      "cac": 270,
+      "ltv": 35000,
+      "ltvCacRatio": 129.63,
+      "mau": 370
+    },
+    {
+      "date": "2024-07-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 98000,
+        "setup_fees": 11000,
+        "professional_services": 0,
+        "overage_fees": 11000
+      },
+      "totalRevenue": 120000,
+      "expensesByCategory": {
+        "salaries": 21000,
+        "marketing": 14500,
+        "infrastructure": 7800,
+        "software": 3700,
+        "operations": 3700
+      },
+      "totalExpenses": 50700,
+      "grossProfit": 69300,
+      "grossMargin": 57.75,
+      "operatingCashFlow": 58000,
+      "netProfit": 55000,
+      "cac": 110,
+      "ltv": 16000,
+      "ltvCacRatio": 145.45,
+      "mau": 485
+    },
+    {
+      "date": "2024-07-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 46000,
+        "setup_fees": 10000,
+        "professional_services": 0,
+        "overage_fees": 9000
+      },
+      "totalRevenue": 65000,
+      "expensesByCategory": {
+        "salaries": 16500,
+        "marketing": 12500,
+        "infrastructure": 5400,
+        "software": 1400,
+        "operations": 2300
+      },
+      "totalExpenses": 38100,
+      "grossProfit": 26900,
+      "grossMargin": 41.38,
+      "operatingCashFlow": 18500,
+      "netProfit": 17500,
+      "cac": 60,
+      "ltv": 8800,
+      "ltvCacRatio": 146.67,
+      "mau": 285
+    },
+    {
+      "date": "2024-07-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 75000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 75000,
+      "expensesByCategory": {
+        "salaries": 32000,
+        "marketing": 3800,
+        "infrastructure": 1400,
+        "software": 1300,
+        "operations": 2800
+      },
+      "totalExpenses": 41300,
+      "grossProfit": 33700,
+      "grossMargin": 44.93,
+      "operatingCashFlow": 31000,
+      "netProfit": 29000,
+      "cac": 120,
+      "ltv": 29000,
+      "ltvCacRatio": 241.67,
+      "mau": 148
+    },
+    {
+      "date": "2024-08-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 185000,
+        "setup_fees": 23000,
+        "professional_services": 0,
+        "overage_fees": 20000
+      },
+      "totalRevenue": 228000,
+      "expensesByCategory": {
+        "salaries": 44000,
+        "marketing": 16500,
+        "infrastructure": 15000,
+        "software": 6400,
+        "operations": 7500
+      },
+      "totalExpenses": 89400,
+      "grossProfit": 138600,
+      "grossMargin": 60.79,
+      "operatingCashFlow": 113000,
+      "netProfit": 104000,
+      "cac": 260,
+      "ltv": 36000,
+      "ltvCacRatio": 138.46,
+      "mau": 382
+    },
+    {
+      "date": "2024-08-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 102000,
+        "setup_fees": 11500,
+        "professional_services": 0,
+        "overage_fees": 11500
+      },
+      "totalRevenue": 125000,
+      "expensesByCategory": {
+        "salaries": 21500,
+        "marketing": 15000,
+        "infrastructure": 8000,
+        "software": 3800,
+        "operations": 3800
+      },
+      "totalExpenses": 52100,
+      "grossProfit": 72900,
+      "grossMargin": 58.32,
+      "operatingCashFlow": 61000,
+      "netProfit": 58000,
+      "cac": 105,
+      "ltv": 16500,
+      "ltvCacRatio": 157.14,
+      "mau": 500
+    },
+    {
+      "date": "2024-08-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 48000,
+        "setup_fees": 10500,
+        "professional_services": 0,
+        "overage_fees": 9500
+      },
+      "totalRevenue": 68000,
+      "expensesByCategory": {
+        "salaries": 17000,
+        "marketing": 13000,
+        "infrastructure": 5600,
+        "software": 1400,
+        "operations": 2400
+      },
+      "totalExpenses": 39400,
+      "grossProfit": 28600,
+      "grossMargin": 42.06,
+      "operatingCashFlow": 19500,
+      "netProfit": 18500,
+      "cac": 55,
+      "ltv": 9200,
+      "ltvCacRatio": 167.27,
+      "mau": 298
+    },
+    {
+      "date": "2024-08-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 78000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 78000,
+      "expensesByCategory": {
+        "salaries": 33000,
+        "marketing": 3900,
+        "infrastructure": 1400,
+        "software": 1400,
+        "operations": 2900
+      },
+      "totalExpenses": 42600,
+      "grossProfit": 35400,
+      "grossMargin": 45.38,
+      "operatingCashFlow": 32500,
+      "netProfit": 30500,
+      "cac": 110,
+      "ltv": 30000,
+      "ltvCacRatio": 272.73,
+      "mau": 154
+    },
+    {
+      "date": "2024-09-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 192000,
+        "setup_fees": 25000,
+        "professional_services": 0,
+        "overage_fees": 21000
+      },
+      "totalRevenue": 238000,
+      "expensesByCategory": {
+        "salaries": 45000,
+        "marketing": 17000,
+        "infrastructure": 15500,
+        "software": 6600,
+        "operations": 7800
+      },
+      "totalExpenses": 91900,
+      "grossProfit": 146100,
+      "grossMargin": 61.39,
+      "operatingCashFlow": 119000,
+      "netProfit": 110000,
+      "cac": 250,
+      "ltv": 37000,
+      "ltvCacRatio": 148.0,
+      "mau": 395
+    },
+    {
+      "date": "2024-09-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 106000,
+        "setup_fees": 12000,
+        "professional_services": 0,
+        "overage_fees": 12000
+      },
+      "totalRevenue": 130000,
+      "expensesByCategory": {
+        "salaries": 22000,
+        "marketing": 15500,
+        "infrastructure": 8200,
+        "software": 3900,
+        "operations": 3900
+      },
+      "totalExpenses": 53500,
+      "grossProfit": 76500,
+      "grossMargin": 58.85,
+      "operatingCashFlow": 64000,
+      "netProfit": 61000,
+      "cac": 100,
+      "ltv": 17000,
+      "ltvCacRatio": 170.0,
+      "mau": 515
+    },
+    {
+      "date": "2024-09-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 50000,
+        "setup_fees": 11000,
+        "professional_services": 0,
+        "overage_fees": 10000
+      },
+      "totalRevenue": 71000,
+      "expensesByCategory": {
+        "salaries": 17500,
+        "marketing": 13500,
+        "infrastructure": 5800,
+        "software": 1500,
+        "operations": 2500
+      },
+      "totalExpenses": 40800,
+      "grossProfit": 30200,
+      "grossMargin": 42.54,
+      "operatingCashFlow": 20500,
+      "netProfit": 19500,
+      "cac": 50,
+      "ltv": 9600,
+      "ltvCacRatio": 192.0,
+      "mau": 310
+    },
+    {
+      "date": "2024-09-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 80000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 80000,
+      "expensesByCategory": {
+        "salaries": 34000,
+        "marketing": 4000,
+        "infrastructure": 1500,
+        "software": 1400,
+        "operations": 3000
+      },
+      "totalExpenses": 43900,
+      "grossProfit": 36100,
+      "grossMargin": 45.13,
+      "operatingCashFlow": 33200,
+      "netProfit": 31000,
+      "cac": 100,
+      "ltv": 31000,
+      "ltvCacRatio": 310.0,
+      "mau": 160
+    },
+    {
+      "date": "2024-10-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 198000,
+        "setup_fees": 24000,
+        "professional_services": 0,
+        "overage_fees": 22000
+      },
+      "totalRevenue": 244000,
+      "expensesByCategory": {
+        "salaries": 46000,
+        "marketing": 17500,
+        "infrastructure": 16000,
+        "software": 6800,
+        "operations": 8000
+      },
+      "totalExpenses": 94300,
+      "grossProfit": 149700,
+      "grossMargin": 61.35,
+      "operatingCashFlow": 122000,
+      "netProfit": 113000,
+      "cac": 240,
+      "ltv": 38000,
+      "ltvCacRatio": 158.33,
+      "mau": 408
+    },
+    {
+      "date": "2024-10-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 110000,
+        "setup_fees": 12500,
+        "professional_services": 0,
+        "overage_fees": 12500
+      },
+      "totalRevenue": 135000,
+      "expensesByCategory": {
+        "salaries": 22500,
+        "marketing": 16000,
+        "infrastructure": 8500,
+        "software": 4000,
+        "operations": 4000
+      },
+      "totalExpenses": 55000,
+      "grossProfit": 80000,
+      "grossMargin": 59.26,
+      "operatingCashFlow": 67000,
+      "netProfit": 64000,
+      "cac": 95,
+      "ltv": 17500,
+      "ltvCacRatio": 184.21,
+      "mau": 530
+    },
+    {
+      "date": "2024-10-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 52000,
+        "setup_fees": 11500,
+        "professional_services": 0,
+        "overage_fees": 10500
+      },
+      "totalRevenue": 74000,
+      "expensesByCategory": {
+        "salaries": 18000,
+        "marketing": 14000,
+        "infrastructure": 6000,
+        "software": 1500,
+        "operations": 2600
+      },
+      "totalExpenses": 42100,
+      "grossProfit": 31900,
+      "grossMargin": 43.11,
+      "operatingCashFlow": 21500,
+      "netProfit": 20500,
+      "cac": 45,
+      "ltv": 10000,
+      "ltvCacRatio": 222.22,
+      "mau": 322
+    },
+    {
+      "date": "2024-10-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 82000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 82000,
+      "expensesByCategory": {
+        "salaries": 35000,
+        "marketing": 4100,
+        "infrastructure": 1500,
+        "software": 1500,
+        "operations": 3100
+      },
+      "totalExpenses": 45200,
+      "grossProfit": 36800,
+      "grossMargin": 44.88,
+      "operatingCashFlow": 33800,
+      "netProfit": 31500,
+      "cac": 90,
+      "ltv": 32000,
+      "ltvCacRatio": 355.56,
+      "mau": 166
+    },
+    {
+      "date": "2024-11-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 205000,
+        "setup_fees": 26000,
+        "professional_services": 0,
+        "overage_fees": 23000
+      },
+      "totalRevenue": 254000,
+      "expensesByCategory": {
+        "salaries": 47000,
+        "marketing": 18000,
+        "infrastructure": 16500,
+        "software": 7000,
+        "operations": 8200
+      },
+      "totalExpenses": 96700,
+      "grossProfit": 157300,
+      "grossMargin": 61.93,
+      "operatingCashFlow": 128000,
+      "netProfit": 118500,
+      "cac": 230,
+      "ltv": 39000,
+      "ltvCacRatio": 169.57,
+      "mau": 420
+    },
+    {
+      "date": "2024-11-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 114000,
+        "setup_fees": 13000,
+        "professional_services": 0,
+        "overage_fees": 13000
+      },
+      "totalRevenue": 140000,
+      "expensesByCategory": {
+        "salaries": 23000,
+        "marketing": 16500,
+        "infrastructure": 8700,
+        "software": 4100,
+        "operations": 4100
+      },
+      "totalExpenses": 56400,
+      "grossProfit": 83600,
+      "grossMargin": 59.71,
+      "operatingCashFlow": 70000,
+      "netProfit": 67000,
+      "cac": 90,
+      "ltv": 18000,
+      "ltvCacRatio": 200.0,
+      "mau": 545
+    },
+    {
+      "date": "2024-11-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 54000,
+        "setup_fees": 12000,
+        "professional_services": 0,
+        "overage_fees": 11000
+      },
+      "totalRevenue": 77000,
+      "expensesByCategory": {
+        "salaries": 18500,
+        "marketing": 14500,
+        "infrastructure": 6200,
+        "software": 1600,
+        "operations": 2700
+      },
+      "totalExpenses": 43500,
+      "grossProfit": 33500,
+      "grossMargin": 43.51,
+      "operatingCashFlow": 22500,
+      "netProfit": 21500,
+      "cac": 40,
+      "ltv": 10400,
+      "ltvCacRatio": 260.0,
+      "mau": 335
+    },
+    {
+      "date": "2024-11-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 85000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 85000,
+      "expensesByCategory": {
+        "salaries": 36000,
+        "marketing": 4200,
+        "infrastructure": 1600,
+        "software": 1500,
+        "operations": 3200
+      },
+      "totalExpenses": 46500,
+      "grossProfit": 38500,
+      "grossMargin": 45.29,
+      "operatingCashFlow": 35400,
+      "netProfit": 33000,
+      "cac": 85,
+      "ltv": 33000,
+      "ltvCacRatio": 388.24,
+      "mau": 172
+    },
+    {
+      "date": "2024-12-01",
+      "productId": "enterprise",
+      "productName": "Enterprise Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 212000,
+        "setup_fees": 28000,
+        "professional_services": 0,
+        "overage_fees": 24000
+      },
+      "totalRevenue": 264000,
+      "expensesByCategory": {
+        "salaries": 48000,
+        "marketing": 18500,
+        "infrastructure": 17000,
+        "software": 7200,
+        "operations": 8500
+      },
+      "totalExpenses": 99200,
+      "grossProfit": 164800,
+      "grossMargin": 62.42,
+      "operatingCashFlow": 134000,
+      "netProfit": 124000,
+      "cac": 220,
+      "ltv": 40000,
+      "ltvCacRatio": 181.82,
+      "mau": 432
+    },
+    {
+      "date": "2024-12-01",
+      "productId": "professional",
+      "productName": "Professional Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 118000,
+        "setup_fees": 13500,
+        "professional_services": 0,
+        "overage_fees": 13500
+      },
+      "totalRevenue": 145000,
+      "expensesByCategory": {
+        "salaries": 23500,
+        "marketing": 17000,
+        "infrastructure": 9000,
+        "software": 4200,
+        "operations": 4200
+      },
+      "totalExpenses": 57900,
+      "grossProfit": 87100,
+      "grossMargin": 60.07,
+      "operatingCashFlow": 73000,
+      "netProfit": 70000,
+      "cac": 85,
+      "ltv": 18500,
+      "ltvCacRatio": 217.65,
+      "mau": 560
+    },
+    {
+      "date": "2024-12-01",
+      "productId": "starter",
+      "productName": "Starter Plan",
+      "revenueByCategory": {
+        "subscription_revenue": 56000,
+        "setup_fees": 12500,
+        "professional_services": 0,
+        "overage_fees": 11500
+      },
+      "totalRevenue": 80000,
+      "expensesByCategory": {
+        "salaries": 19000,
+        "marketing": 15000,
+        "infrastructure": 6400,
+        "software": 1600,
+        "operations": 2800
+      },
+      "totalExpenses": 44800,
+      "grossProfit": 35200,
+      "grossMargin": 44.0,
+      "operatingCashFlow": 23500,
+      "netProfit": 22500,
+      "cac": 35,
+      "ltv": 10800,
+      "ltvCacRatio": 308.57,
+      "mau": 348
+    },
+    {
+      "date": "2024-12-01",
+      "productId": "consulting",
+      "productName": "Consulting Services",
+      "revenueByCategory": {
+        "subscription_revenue": 0,
+        "setup_fees": 0,
+        "professional_services": 88000,
+        "overage_fees": 0
+      },
+      "totalRevenue": 88000,
+      "expensesByCategory": {
+        "salaries": 37000,
+        "marketing": 4300,
+        "infrastructure": 1600,
+        "software": 1600,
+        "operations": 3300
+      },
+      "totalExpenses": 47800,
+      "grossProfit": 40200,
+      "grossMargin": 45.68,
+      "operatingCashFlow": 37000,
+      "netProfit": 34500,
+      "cac": 80,
+      "ltv": 34000,
+      "ltvCacRatio": 425.0,
+      "mau": 178
+    }
+  ]
+}
